@@ -3,6 +3,10 @@
     padding: 50px 40px;
 }
 
+.form .title-main {
+    margin-bottom: 50px ;
+}
+
 .form .label-form {
     color: #fff;
     font-size: 30px;
