@@ -1,0 +1,26 @@
+.form {
+    background-color: #3a4042;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.form .label-form {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 40px;
+}
+
+.form .input-form {
+    box-sizing: border-box;
+    border: 5px solid #000;
+    font-size: 20px;
+    height: 50px;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 100%;
+}
+
+.form .input-form.-textarea {
+    height: 320px;
+}

@@ -30,6 +30,8 @@
     <link rel="stylesheet" href="css/components/button-arrow.css">
     <link rel="stylesheet" href="css/components/node.card.css">
     <link rel="stylesheet" href="css/components/carousel.css">
+    <link rel="stylesheet" href="css/components/footer.css">
+    <link rel="stylesheet" href="css/components/form.css">
 
 </head>
 
@@ -128,7 +130,7 @@
             <figure class="card-project">
                 <a href="https://rms43.github.io" target="_blank">
                     <img src="/assets/img/logo-firedlabs.svg" alt="Logo do Firelabs">
-                </a>
+                </a>m
             </figure>
             <figure class="card-project -blue">
                 <a href="https://rms43.github.io" target="_blank">
@@ -202,10 +204,29 @@
         </section>
     </section>
 
-    <section class="section">
-        <h2 class="title-main -second">Contatos</h2>
-    </section>
-<script src="js/components/carousel.js"></script>
+    <form class="form">
+        <label class="label-form" for="name">Nome</label>
+        <input class="input-form" type="text" name="" id="name">
+
+        <label class="label-form" for="email">Email</label>
+        <input class="input-form" type="email" name="" id="email">
+
+        <label class="label-form" for="message">Mensagem</label>
+        <textarea class="input-form -textarea" name="" id="message"></textarea>
+
+        <button type="submit">Envia</button>
+    </form>
+
+    <footer class="footer">
+        <a class="actions" href=""><img src="assets/img/icon-twitter.png" alt="icon twitter">
+        </a>
+        <a class="actions" href="https://youtube.com"><img src="assets/img/icon-youtube.png" alt="icon youtube">
+        </a>
+        <a class="actions" href=""><img src="assets/img/icon-discord.png" alt="icon discord">
+        </a>
+    </footer>
+
+    <script src="js/components/carousel.js"></script>
 </body>
 
 </html>
