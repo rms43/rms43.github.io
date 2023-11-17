@@ -1,0 +1,53 @@
+.carousel {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding-left: 100px;
+    padding-right: 100px;
+    overflow: hidden;
+}
+.carousel::after {
+    content: '';
+    position: absolute;
+    display: block;
+    top: 38px;
+    left: 100px;
+    height: 6px;
+    width: calc(100% - 200px);
+    background-color: #000;
+}
+
+.carousel::before {
+    content: '';
+    position: absolute;
+    display: block;
+    border: 3px dashed #000;
+    top: 38px;
+    left: 0;
+    width: calc(100%);
+}
+
+.carousel .button-arrow {
+    position: absolute;
+    bottom: 70px;
+    transform: translateY(35%);
+}
+
+.carousel .button-arrow.-back {
+    left: 15px;
+}
+
+.carousel .button-arrow.-next {
+    right: 15px;
+}
+
+.carousel .items {
+    width: 100%;
+    overflow: hidden;
+}
+
+.carousel .elements {
+    display: flex;
+    justify-content: space-between;
+    transition: transform 100ms ease-in-out;
+}
